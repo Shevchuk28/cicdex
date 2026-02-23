@@ -18,5 +18,5 @@ jobs:
           script: |
             mkdir yulia 
             cd yulia 
-            git clone https://github.com/olehpitsun/cicdex.git 
+            git clone https://github.com/Shevchuk28/cicdex.git
             echo 'Deployment successful to digital ocean d1' 
