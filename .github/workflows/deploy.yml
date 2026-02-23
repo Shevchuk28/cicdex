@@ -16,7 +16,7 @@ jobs:
           passphrase: ${{ secrets.SERVER_PASSPHRASE }}
      
           script: |
-            mkdir yulia 
-            cd yulia 
+            mkdir yulia
+            cd yulia
             git clone https://github.com/Shevchuk28/cicdex.git
             echo 'Deployment successful to digital ocean d1' 
